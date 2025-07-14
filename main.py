@@ -2585,16 +2585,17 @@ class NewsAnalyzer:
             print("运行模式: 正常模式（频率词统计 + 新增检测）")
 
         ids = [
-            ("wallstreetcn-hot", "华尔街见闻"),
-            ("thepaper", "澎湃新闻"),
+            
             ("bilibili-hot-search", "bilibili 热搜"),
-            "tieba",
-            "weibo",
-            "douyin",
-            "zhihu",
-            "juejin",
+            ("tieba","贴吧"),
+            ("weibo","微博"),
+            ("douyin","抖音"),
+            ("zhihu","知乎"),
+            ("juejin","掘金"),
+            "bilibili",
             "github",
             "v2ex",
+            "ithome",
         ]
 
         print(f"开始爬取数据，请求间隔 {self.request_interval} 毫秒")
