@@ -1,4 +1,5 @@
 DeepSeek
+
 google
 gemini
 deepmind
@@ -9,10 +10,16 @@ openai
 claude
 Anthropic
 
+cursor
++技术
+
 iphone
 ipad
+
 mac
+
 ios
+Macos
 
 ai
 !gai
@@ -21,3 +28,6 @@ ai
 
 go
 golang
+
+clash of clans
+部落冲突
